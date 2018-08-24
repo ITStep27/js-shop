@@ -1,0 +1,98 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: serif;
+}
+
+#app {
+  max-width: 1200px;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#app .product-item {
+  border: 1px solid #333;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px 2px gray;
+          box-shadow: 0 0 10px 2px gray;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: calc(25% - 20px);
+}
+
+#app .brand {
+  position: relative;
+  top: -15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #fff;
+  text-transform: uppercase;
+  -webkit-box-shadow: 2px 2px 5px 1px gray;
+          box-shadow: 2px 2px 5px 1px gray;
+  font-weight: bold;
+  color: #282a29;
+}
+
+#app h4.product {
+  margin: 10px 0;
+  text-align: center;
+}
+
+#app h4.price {
+  text-align: center;
+  padding: 10px 0;
+}
+
+#app h4.price span {
+  background-color: #ff7f50;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#app h4.count {
+  text-align: center;
+  padding: 5px 0;
+}
+
+#app h4.count span {
+  font-weight: bold;
+}
+
+#app li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+#app h4.rate {
+  text-align: center;
+  padding: 5px 0;
+}
+
+#app .half-vision {
+  opacity: .5;
+}
+
+#app .star {
+  width: 20px;
+  display: inline-block;
+}
+
+#app .star img {
+  width: 20px;
+}
+/*# sourceMappingURL=style.css.map */
