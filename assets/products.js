@@ -8,7 +8,7 @@ var phones = [
         "countProducts": 3,
         "operationSystem": "Android",
         "numSimCard": 2,
-        "productRate": 0.2,
+        "productRate": 4.2,
         "countViews": 5236
     },
     {
@@ -19,7 +19,7 @@ var phones = [
         "countProducts": 1,
         "operationSystem": "Android",
         "numSimCard": 2,
-        "productRate": 1,
+        "productRate": 4.8,
         "countViews": 785
     },
     {
@@ -30,7 +30,7 @@ var phones = [
         "countProducts": 0,
         "operationSystem": "Android",
         "numSimCard": 2,
-        "productRate": 2,
+        "productRate": 4.3,
         "countViews": 453
     },
     {
@@ -41,7 +41,7 @@ var phones = [
         "countProducts": 3,
         "operationSystem": "Android",
         "numSimCard": 2,
-        "productRate": 3,
+        "productRate": 3.8,
         "countViews": 1230
     },
     {
@@ -52,7 +52,7 @@ var phones = [
         "countProducts": 2,
         "operationSystem": "Android",
         "numSimCard": 1,
-        "productRate": 4,
+        "productRate": 4.3,
         "countViews": 4532
     },
     {
@@ -63,7 +63,7 @@ var phones = [
         "countProducts": 2,
         "operationSystem": "Android",
         "numSimCard": 2,
-        "productRate": 5,
+        "productRate": 4.5,
         "countViews": 1287
     },
     {
@@ -74,7 +74,7 @@ var phones = [
         "countProducts": 1,
         "operationSystem": "iOS",
         "numSimCard": 1,
-        "productRate": 4.5,
+        "productRate": 4.4,
         "countViews": 1222
     },
     {
@@ -85,7 +85,7 @@ var phones = [
         "countProducts": 2,
         "operationSystem": "iOS",
         "numSimCard": 2,
-        "productRate": 3.7,
+        "productRate": 4.7,
         "countViews": 999
     }
 ];

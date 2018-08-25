@@ -4,6 +4,7 @@ for (var i = 0; i < phones.length; i++) {
   var a = phones[i]; // ссылка на текущий эл-т массива
   var available = a.countProducts > 0 ? `В наличии: ${a.countProducts}` : 'Нет на складе';
   var availableImg = a.countProducts > 0 ? '' : 'class=half-vision';
+  var availableClass = a.countProducts > 0 ? '' : ' red';
   var rate = '';
   // for (var n = 1; n<=Math.floor(a.productRate); n++) rate +='<span class=star> <img src="assets/img/10.jpg"></span>';
   for (n = 1; n <=5; n++) {
@@ -20,18 +21,19 @@ for (var i = 0; i < phones.length; i++) {
   <img ${availableImg} src="http://apeps.kiev.ua/images/phones/${a.id}.jpg">
   <h4 class=price><span ${availableImg}>${a.priceUAH} UAH</span></h4>
 
-  <h4 class=count>${available}</h4>
-  <div class=description>
+  <h4 class="count${availableClass}">${available}</h4>
   <h4>Характеристики:</h4>
+  <div class=description>
   <ul>
     <li>ОС: ${a.operationSystem}</li>
     <li>Количество сим-карт: ${a.numSimCard}</li>
   </ul>
-  <div> <!--description-->
+  </div> <!--description-->
   <h4 class=rate>${rate}</h4>
 
 
-  <h4 class=views>Просмотров: ${a.countViews}</h4>
+  <h4 class=views>Просмотров: <span>${a.countViews}</span></h4>
+  <h4 class=buy><button type=submit>Купить</button></h4>
   </div>`;
 }
 
