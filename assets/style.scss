@@ -72,8 +72,9 @@ body {
         padding: 0 0 0 10px;
     }
     h4.rate {
-        text-align: center;
         padding: 5px 0;
+        display: flex;
+        justify-content: center;
     }
     .half-vision {
         opacity:.5;
@@ -107,15 +108,16 @@ body {
         cursor: pointer;
     }
     }
-    .star {
-        width: 20px;
-        display: inline-block;
-        img {
-            width: 20px;
-        }
-    }
+    // .star {
+    //     width: 20px;
+    //     display: inline-block;
+    //     img {
+    //         width: 20px;
+    //     }
+    // }
 }
 }
+
 @media (max-width: 992px) {
     #app {
     .product-item {

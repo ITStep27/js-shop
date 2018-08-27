@@ -8,7 +8,7 @@ var phones = [
         "countProducts": 3,
         "operationSystem": "Android",
         "numSimCard": 2,
-        "productRate": 4.2,
+        "productRate": 4.5,
         "countViews": 5236
     },
     {

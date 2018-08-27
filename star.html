@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/star-rate.css">
+    <script src = "assets/star-rate.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div style="border: 1px solid black; width:200px;">
+
+    <script>
+        document.write(starRateWrite(4.5, "assets/img"));
+    </script>
+        
+    </div>
+    <!-- <script>
+        var rate = 3;
+        function starRate (k) {
+        // отрисовка 1-й звезды;
+        // k - число от 0 до 1
+            k *= 20;
+            right = k;
+            left = 20 - k;
+            s=`
+            <div style='width:${right}px'>
+                <span> <img src="homework/assets/img/left.png" alt=""> </span>
+            </div>
+            <div style='width:${left}px'>
+                <span style='left:-${right}px'> <img src="homework/assets/img/right.png" alt=""> </span>
+            </div>
+            `;
+            return s;
+        }
+        function starRateWrite (rate) {
+        var s = '';
+        for (var i = 1; i <= 5; i++) {
+            var x = 0;
+            if (i < rate) x = 1;
+            if (i == rate) x = 1;
+            if (i < rate & i == Math.floor(rate)) x = Math.floor((rate - i) * 10) / 10;
+            if (i >Math.ceil(rate)) x = 0;
+            container.innerHTML += (starRate(x));
+        }
+        return s;
+        }
+    
+    </script> -->
+</body>
+</html>

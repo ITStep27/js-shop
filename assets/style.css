@@ -102,8 +102,13 @@ body {
 }
 
 #app .product-item h4.rate {
-  text-align: center;
   padding: 5px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #app .product-item .half-vision {
@@ -141,15 +146,6 @@ body {
   font-size: 1.1em;
   background-color: #58cf72;
   cursor: pointer;
-}
-
-#app .product-item .star {
-  width: 20px;
-  display: inline-block;
-}
-
-#app .product-item .star img {
-  width: 20px;
 }
 
 @media (max-width: 992px) {
